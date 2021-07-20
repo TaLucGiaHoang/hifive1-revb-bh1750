@@ -37,7 +37,7 @@ int main() {
   // Initialize the I2C bus (BH1750 library doesn't do this automatically)
   bh1750_i2c = metal_i2c_get_device(0);
   if (bh1750_i2c == NULL) {
-    printf("I2C not available \n");
+    printf("I2C not available\r\n");
     return -1;
   }
   metal_i2c_init(bh1750_i2c, 100000, METAL_I2C_MASTER); // configure to 100000Hz, master mode
