@@ -28,7 +28,7 @@ The library used BH1750 GY-302 module to develop and test.
 ## Example of connect to one BH1750 Light Sensor
 ![HiFive1 Rev B connect to a BH1750 Light Sensor](photos/001.jpg)
 
-## Example of connect to two BH1750 Light Sensor
+## Example of connect to two BH1750 Light Sensors
 ![HiFive1 Rev B connect to 2 BH1750 Light Sensors](photos/002.jpg)
 
 # Development tools
